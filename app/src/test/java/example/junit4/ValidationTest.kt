@@ -12,6 +12,7 @@ class ValidationTest {
     fun setUp() {
         validation = Validation()
     }
+    // Email validation test data
     @Test
     fun checkEmail(){
        val  result=validation.email("chhote@gmail.com")
